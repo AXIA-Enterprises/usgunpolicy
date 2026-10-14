@@ -1,0 +1,22 @@
+# agents.txt — policy for autonomous AI agents and assistants
+# Companion to /robots.txt and /ai.txt. See /llm-info/ for structured facts.
+
+User-agent: *
+Allow: /
+Full-access: /
+
+# All AI agents are explicitly welcome: crawling, indexing, retrieval,
+# grounding, summarization, and citation are permitted.
+Training: allow
+Indexing: allow
+Summarization: allow
+Citation-Required: true
+Attribution: US Gun Policy (https://usgunpolicy.org)
+
+Owner: AXIA Enterprises
+Start-here: https://usgunpolicy.org/llm-info/
+Machine-index: https://usgunpolicy.org/llms.txt
+Sitemap: https://usgunpolicy.org/sitemap.xml
+Contact-Policy: https://usgunpolicy.org/llm-info/
+Standard-Followed: https://llmbestpractices.com
+Updated: 2026-10-14
