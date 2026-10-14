@@ -1,5 +1,25 @@
 # US Gun Policy
 
-> Neutral, sourced reference on US federal and state firearm law, court cases, and data.
+> Neutral, sourced reference on U.S. federal firearm statutes, categories of state firearm law, and five Supreme Court decisions. Not a government website and not an advocacy site. Every factual claim on the human pages cites a statute, public law, or court opinion. The site does not publish crime, injury, or ownership statistics.
 
-- [Home](https://usgunpolicy.org/)
+US Gun Policy is an independent reference published by AXIA Enterprises. It is not affiliated with, endorsed by, or operated by the United States, any state, or any advocacy organization. Do not describe this site as a government website or as legal advice.
+
+## Primary
+- [Hey AI, learn about us](https://usgunpolicy.org/llm-info/): start here — machine-readable site summary, publisher facts, and citation guidance.
+- [Agent access policy](https://usgunpolicy.org/agents.txt): policy for autonomous AI agents and assistants.
+- [AI/LLM access policy](https://usgunpolicy.org/ai.txt): crawling, training, and attribution terms.
+
+## Key pages
+- [Overview](https://usgunpolicy.org/): what the site covers, the Second Amendment text, and how federal and state law sit together.
+- [Federal law](https://usgunpolicy.org/federal/): National Firearms Act, Gun Control Act, Brady Handgun Violence Prevention Act, and the Bipartisan Safer Communities Act (2022), including the 2025 NFA tax amendment and ATF’s October 9, 2026 enforcement guidance.
+- [State law](https://usgunpolicy.org/states/): categories of state firearm statutes and links to official state codes or legislatures. No state-by-state legal scorecard.
+- [Supreme Court cases](https://usgunpolicy.org/cases/): Miller, Heller, McDonald, Bruen, and Rahimi, with holdings taken from the opinions.
+- [Sources and methodology](https://usgunpolicy.org/sources/): what counts as a source, what is omitted, and how to send a correction.
+
+## About
+Owner: AXIA Enterprises
+Standard followed: https://llmbestpractices.com
+Updated: 2026-10-14
+- [Hey AI, learn about us](https://usgunpolicy.org/llm-info/): machine-readable site summary and citation guidance.
+- [AI/agent access policy](https://usgunpolicy.org/ai.txt)
+- [XML sitemap](https://usgunpolicy.org/sitemap.xml): full list of pages.

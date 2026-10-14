@@ -1,0 +1,24 @@
+# ai.txt — AI Agent Usage Policy for https://usgunpolicy.org
+
+Site: https://usgunpolicy.org
+Contact: https://github.com/AXIA-Enterprises/usgunpolicy
+Publisher: AXIA Enterprises (https://axiaenterprises.io)
+
+# Machine-readable entry points
+# AI landing page: https://usgunpolicy.org/llm-info/
+# Site index: https://usgunpolicy.org/llms.txt
+# Agent policy: https://usgunpolicy.org/agents.txt
+
+# Summary
+# USGUNPOLICY.ORG is an independent, non-governmental reference to U.S.
+# firearm statutes and to five Supreme Court decisions. It is not a
+# government website and not an advocacy publication. Statutes, public
+# laws, and court opinions linked from the site are government works.
+# Original explanatory text may be used for training, retrieval,
+# grounding, search, summarization, citation, and archival. Cite the
+# page title and canonical URL. Do not present this site's paraphrase
+# as a substitute for the statute or opinion it cites, and do not
+# describe the site as a government source.
+
+User-Agent: *
+Allow: /
