@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e2240">
 <title>US Gun Policy | A sourced guide to federal law, state law, and Supreme Court cases</title>
 <meta name="description" content="A neutral reference to U.S. firearm statutes, the kinds of laws states enact, and five Supreme Court decisions. Every claim cites a statute, public law, or opinion.">
 <link rel="canonical" href="https://usgunpolicy.org/">
@@ -11,7 +12,11 @@
 <meta property="og:description" content="A neutral reference to U.S. firearm statutes, the kinds of laws states enact, and five Supreme Court decisions. Every claim cites a statute, public law, or opinion.">
 <meta property="og:url" content="https://usgunpolicy.org/">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%231c3d5a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%23f7f4ee'%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://usgunpolicy.org/img/supreme-court-west-front.jpg">
+<meta property="og:image:alt" content="West front of the United States Supreme Court building">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" as="image" href="/img/supreme-court-west-front.webp" type="image/webp" fetchpriority="high">
 <link rel="stylesheet" href="css/site.css">
 <script type="application/ld+json">
 {
@@ -41,7 +46,7 @@
       "description": "A neutral reference to U.S. firearm statutes, the kinds of laws states enact, and five Supreme Court decisions. Every claim cites a statute, public law, or opinion.",
       "isPartOf": { "@id": "https://usgunpolicy.org/#website" },
       "publisher": { "@id": "https://axiaenterprises.io/#organization" },
-      "dateModified": "2026-10-14",
+      "dateModified": "2026-10-15",
       "inLanguage": "en"
     }
   ]
@@ -53,16 +58,24 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">
-      <span class="brand-kicker">Independent reference</span>
-      <span class="brand-name">US Gun Policy</span>
+      <svg class="wordmark" viewBox="0 0 250 44" role="img" aria-label="US Gun Policy">
+        <rect x="0.5" y="2.5" width="39" height="39" rx="9" fill="#c6a15a"/>
+        <rect x="2.5" y="4.5" width="35" height="35" rx="7" fill="#122848"/>
+        <text x="20" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#f7f4ee">§</text>
+        <text x="50" y="17.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" letter-spacing="1.15" fill="#c6a15a">INDEPENDENT REFERENCE</text>
+        <text x="50" y="35.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#f7f4ee">US Gun Policy</text>
+      </svg>
     </a>
-    <nav aria-label="Primary">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle-icon" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <ul>
-        <li><a href="/" aria-current="page">Overview</a></li>
-        <li><a href="/federal/">Federal law</a></li>
-        <li><a href="/states/">State law</a></li>
-        <li><a href="/cases/">Court cases</a></li>
-        <li><a href="/sources/">Sources</a></li>
+          <li><a href="/" aria-current="page">Overview</a></li>
+          <li><a href="/federal/">Federal law</a></li>
+          <li><a href="/states/">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
       </ul>
     </nav>
   </div>
@@ -70,11 +83,49 @@
 <div class="notice">
   <p class="wrap wide">Not a U.S. government website. Not legal advice. Text reviewed October 14, 2026.</p>
 </div>
-<main id="content" class="wrap">
-  <h1>US gun policy, from the statutes and the cases</h1>
-  <p class="lead">This is a neutral reading guide to federal firearm statutes, the kinds of laws states enact, and five Supreme Court decisions. It does not recommend policy. It does not report crime, injury, or ownership figures. Every factual claim is tied to a statute, public law, or court opinion.</p>
-  <p class="meta">Reviewed October 14, 2026. Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>.</p>
-
+<main id="content">
+  <section class="hero">
+    <picture>
+      <source type="image/webp" srcset="/img/supreme-court-west-front-800.webp 800w, /img/supreme-court-west-front.webp 1600w" sizes="100vw">
+      <img src="/img/supreme-court-west-front.jpg" width="1600" height="1052" alt="West front of the United States Supreme Court building, with marble columns, sculpted pediment, and steps, after the facade restoration" fetchpriority="high">
+    </picture>
+    <div class="hero-panel">
+      <div class="wrap wide">
+        <p class="eyebrow">Independent reference</p>
+        <h1>US gun policy, from the statutes and the cases</h1>
+        <p class="lead">This is a neutral reading guide to federal firearm statutes, the kinds of laws states enact, and five Supreme Court decisions. It does not recommend policy. It does not report crime, injury, or ownership figures. Every factual claim is tied to a statute, public law, or court opinion.</p>
+        <p class="meta">Reviewed October 14, 2026. Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>.</p>
+        <p class="photo-credit">Photograph: Architect of the Capitol, “Supreme Court Following Facade Restoration,” October 28, 2013. Public domain, a work of the United States government. <a href="https://commons.wikimedia.org/wiki/File:Supreme_Court_Following_Facade_Restoration_(10542206014).jpg">Wikimedia Commons</a>.</p>
+      </div>
+    </div>
+  </section>
+  <section class="guides" aria-label="Guides">
+    <div class="wrap wide">
+      <div class="cards">
+    <a class="card" href="/federal/">
+      <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" d="M4 10h16M6.5 10v8M10.2 10v8M13.8 10v8M17.5 10v8M3.5 18h17M12 3.2 20.5 10h-17L12 3.2z"/></svg></span>
+      <strong>Federal law</strong>
+      <span class="card-blurb">The National Firearms Act, the Gun Control Act, the Brady Act, and the 2022 Bipartisan Safer Communities Act, including the 2025 change to NFA tax rates and ATF’s October 2026 enforcement guidance.</span>
+    </a>
+    <a class="card" href="/states/">
+      <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M3.5 3.5h7v7h-7zM13.5 3.5h7v7h-7zM3.5 13.5h7v7h-7zM13.5 13.5h7v7h-7z"/></svg></span>
+      <strong>State law</strong>
+      <span class="card-blurb">The categories state statutes commonly address, and a link to each state’s official code or legislature. This site does not score the states.</span>
+    </a>
+    <a class="card" href="/cases/">
+      <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3v16M7.5 21h9M12 6.5 6.2 8.2 4 13.2a3.6 3.6 0 0 0 7 1.4M12 6.5l5.8 1.7L20 13.2a3.6 3.6 0 0 1-7 1.4"/></svg></span>
+      <strong>Supreme Court cases</strong>
+      <span class="card-blurb">Holdings in Miller, Heller, McDonald, Bruen, and Rahimi, taken from the opinions and their syllabi.</span>
+    </a>
+    <a class="card" href="/sources/">
+      <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" d="M7 3.5h7.2L19 8.2V20.5H7zM14 3.8V8.4h4.6M9.5 12.8h6M9.5 16.2h6"/></svg></span>
+      <strong>Sources and methodology</strong>
+      <span class="card-blurb">Which documents count, which claims are left out, and how to send a correction.</span>
+    </a>
+      </div>
+    </div>
+  </section>
+  <div class="wrap prose">
   <h2>The constitutional sentence</h2>
   <blockquote cite="https://www.archives.gov/founding-docs/bill-of-rights-transcript">
     <p>A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.</p>
@@ -84,13 +135,6 @@
 
   <h2>Two federal statutes, then the states</h2>
   <p>Congress’s main firearm statutes are the Gun Control Act, codified in chapter 44 of title 18 of the United States Code, and the National Firearms Act, codified in chapter 53 of title 26.<sup><a href="#note-3" id="ref-3">3</a></sup> Chapter 44 states that Congress did not intend to occupy the field and exclude state law on the same subject, unless a federal provision and a state law are in direct and positive conflict.<sup><a href="#note-4" id="ref-4">4</a></sup> State codes are therefore part of the operative law. They are not collected into one national statute.</p>
-
-  <div class="cards">
-    <a class="card" href="/federal/"><strong>Federal law</strong><span>The National Firearms Act, the Gun Control Act, the Brady Act, and the 2022 Bipartisan Safer Communities Act, including the 2025 change to NFA tax rates and ATF’s October 2026 enforcement guidance.</span></a>
-    <a class="card" href="/states/"><strong>State law</strong><span>The categories state statutes commonly address, and a link to each state’s official code or legislature. This site does not score the states.</span></a>
-    <a class="card" href="/cases/"><strong>Supreme Court cases</strong><span>Holdings in Miller, Heller, McDonald, Bruen, and Rahimi, taken from the opinions and their syllabi.</span></a>
-    <a class="card" href="/sources/"><strong>Sources and methodology</strong><span>Which documents count, which claims are left out, and how to send a correction.</span></a>
-  </div>
 
   <h2>How to read a page</h2>
   <p>A superscript number goes to a note. The note names the statute, public law, or opinion and links to the government’s own copy when one is posted. Where the Office of the Law Revision Counsel’s section pages were unavailable, the note also links a nongovernmental reading copy of the same section and says so.<sup><a href="#note-5" id="ref-5">5</a></sup> Nothing here is a substitute for the text it cites, and nothing here is legal advice about a particular person, firearm, or transfer.</p>
@@ -103,18 +147,37 @@
     <li id="note-4">18 U.S.C. § 927. Office of the Law Revision Counsel, United States Code, current through Public Law 119-120 (October 7, 2026), <a href="https://uscode.house.gov/browse.html">uscode.house.gov</a>. Reading copy checked October 14, 2026: Legal Information Institute, <a href="https://www.law.cornell.edu/uscode/text/18/927">18 U.S.C. § 927</a>. <a href="#ref-4" aria-label="Back to reference 4">↩</a></li>
     <li id="note-5">The rule for sources is stated on the <a href="/sources/">sources and methodology</a> page. <a href="#ref-5" aria-label="Back to reference 5">↩</a></li>
   </ol>
+  </div>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
-    <ul>
-      <li><a href="/sources/">Sources and methodology</a></li>
-      <li><a href="/llm-info/">For AI systems</a></li>
-      <li><a href="/llms.txt">llms.txt</a></li>
-      <li><a href="/agents.txt">agents.txt</a></li>
-      <li><a href="/ai.txt">ai.txt</a></li>
-    </ul>
+  <div class="wrap wide footer-grid">
+    <div>
+      <p class="footer-name">US Gun Policy</p>
+      <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul>
+          <li><a href="/" aria-current="page">Overview</a></li>
+          <li><a href="/federal/">Federal law</a></li>
+          <li><a href="/states/">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
+          <li><a href="/llm-info/">For AI systems</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p>Sources are statutes, public laws, and court opinions, linked from each page. The rule for what counts is on <a href="/sources/">Sources and methodology</a>.</p>
+      <p>Neutral reference. This site does not recommend policy and is not legal advice.</p>
+      <p>Last updated <time datetime="2026-10-15">October 15, 2026</time>.</p>
+      <ul class="footer-machine">
+        <li><a href="/llms.txt">llms.txt</a></li>
+        <li><a href="/agents.txt">agents.txt</a></li>
+        <li><a href="/ai.txt">ai.txt</a></li>
+      </ul>
+    </div>
   </div>
 </footer>
+<script src="/js/nav.js" defer></script>
+
 </body>
 </html>

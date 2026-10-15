@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e2240">
 <title>State Firearm Law | Categories of state statutes and official sources</title>
 <meta name="description" content="The kinds of firearm statutes states enact, and a link to each state’s official code or legislature. This page does not score state law.">
 <link rel="canonical" href="https://usgunpolicy.org/states/">
@@ -11,7 +12,10 @@
 <meta property="og:description" content="The kinds of firearm statutes states enact, and a link to each state’s official code or legislature. This page does not score state law.">
 <meta property="og:url" content="https://usgunpolicy.org/states/">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%231c3d5a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%23f7f4ee'%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://usgunpolicy.org/img/supreme-court-west-front.jpg">
+<meta property="og:image:alt" content="West front of the United States Supreme Court building">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="stylesheet" href="../css/site.css">
 <script type="application/ld+json">
 {
@@ -40,7 +44,7 @@
       "description": "The kinds of firearm statutes states enact, and a link to each state’s official code or legislature. This page does not score state law.",
       "isPartOf": { "@id": "https://usgunpolicy.org/#website" },
       "publisher": { "@id": "https://axiaenterprises.io/#organization" },
-      "dateModified": "2026-10-14",
+      "dateModified": "2026-10-15",
       "inLanguage": "en"
     },
     {
@@ -59,16 +63,24 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">
-      <span class="brand-kicker">Independent reference</span>
-      <span class="brand-name">US Gun Policy</span>
+      <svg class="wordmark" viewBox="0 0 250 44" role="img" aria-label="US Gun Policy">
+        <rect x="0.5" y="2.5" width="39" height="39" rx="9" fill="#c6a15a"/>
+        <rect x="2.5" y="4.5" width="35" height="35" rx="7" fill="#122848"/>
+        <text x="20" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#f7f4ee">§</text>
+        <text x="50" y="17.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" letter-spacing="1.15" fill="#c6a15a">INDEPENDENT REFERENCE</text>
+        <text x="50" y="35.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#f7f4ee">US Gun Policy</text>
+      </svg>
     </a>
-    <nav aria-label="Primary">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle-icon" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <ul>
-        <li><a href="/">Overview</a></li>
-        <li><a href="/federal/">Federal law</a></li>
-        <li><a href="/states/" aria-current="page">State law</a></li>
-        <li><a href="/cases/">Court cases</a></li>
-        <li><a href="/sources/">Sources</a></li>
+          <li><a href="/">Overview</a></li>
+          <li><a href="/federal/">Federal law</a></li>
+          <li><a href="/states/" aria-current="page">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
       </ul>
     </nav>
   </div>
@@ -76,7 +88,9 @@
 <div class="notice">
   <p class="wrap wide">Not a U.S. government website. Not legal advice. Text reviewed October 14, 2026.</p>
 </div>
-<main id="content" class="wrap wide">
+<main id="content">
+  <header class="page-intro">
+    <div class="wrap wide">
   <nav class="crumbs" aria-label="Breadcrumb">
     <ol>
       <li><a href="/">Overview</a></li>
@@ -85,9 +99,11 @@
   </nav>
   <h1>State firearm law</h1>
   <p class="lead">Federal chapter 44 does not occupy the field. State statutes supply rules of their own, unless a federal provision and a state law are in direct and positive conflict.<sup><a href="#note-1" id="ref-1">1</a></sup> This page names the categories those statutes address and links to each state’s official code or legislature. It does not say what any state’s current rule is. A count of states, or a score in a category, would be a factual claim this page has not sourced.</p>
-
+    </div>
+  </header>
+  <div class="wrap wide prose">
   <h2>Categories</h2>
-  <div class="table-scroll">
+  <div class="table-scroll" tabindex="0">
     <table>
       <caption>Categories of state firearm statutes, and the federal provision beside each</caption>
       <thead>
@@ -145,7 +161,7 @@
 
   <h2>Official state sources</h2>
   <p>Each link below is a state-maintained code or the legislature’s own site. Where the link is a legislature home page rather than a single code volume, use that site’s statutes or laws entry. The link is a place to read the text. It is not a summary of the text. The District of Columbia is included because its code is the local law at issue in <em>Heller</em>; it is not a state.<sup><a href="#note-5" id="ref-5b">5</a></sup> Territorial codes are not listed.</p>
-  <div class="table-scroll">
+  <div class="table-scroll" tabindex="0">
     <table>
       <caption>Official codes and legislatures for the 50 states and the District of Columbia</caption>
       <thead>
@@ -223,18 +239,37 @@
     <li id="note-9">18 U.S.C. § 922(b)(2). Reading copy: <a href="https://www.law.cornell.edu/uscode/text/18/922">Legal Information Institute</a>. <a href="#ref-9" aria-label="Back to reference 9">↩</a></li>
     <li id="note-10">The Mississippi Legislature’s website links to the Mississippi Code at the LexisNexis address in the table, <a href="https://www.legislature.ms.gov/">legislature.ms.gov</a>, consulted October 14, 2026. <a href="#ref-10" aria-label="Back to reference 10">↩</a></li>
   </ol>
+  </div>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
-    <ul>
-      <li><a href="/sources/">Sources and methodology</a></li>
-      <li><a href="/llm-info/">For AI systems</a></li>
-      <li><a href="/llms.txt">llms.txt</a></li>
-      <li><a href="/agents.txt">agents.txt</a></li>
-      <li><a href="/ai.txt">ai.txt</a></li>
-    </ul>
+  <div class="wrap wide footer-grid">
+    <div>
+      <p class="footer-name">US Gun Policy</p>
+      <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul>
+          <li><a href="/">Overview</a></li>
+          <li><a href="/federal/">Federal law</a></li>
+          <li><a href="/states/" aria-current="page">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
+          <li><a href="/llm-info/">For AI systems</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p>Sources are statutes, public laws, and court opinions, linked from each page. The rule for what counts is on <a href="/sources/">Sources and methodology</a>.</p>
+      <p>Neutral reference. This site does not recommend policy and is not legal advice.</p>
+      <p>Last updated <time datetime="2026-10-15">October 15, 2026</time>.</p>
+      <ul class="footer-machine">
+        <li><a href="/llms.txt">llms.txt</a></li>
+        <li><a href="/agents.txt">agents.txt</a></li>
+        <li><a href="/ai.txt">ai.txt</a></li>
+      </ul>
+    </div>
   </div>
 </footer>
+<script src="/js/nav.js" defer></script>
+
 </body>
 </html>

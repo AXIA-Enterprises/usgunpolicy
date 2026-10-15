@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e2240">
 <title>Federal Firearm Law | National Firearms Act, Gun Control Act, Brady Act, and BSCA</title>
 <meta name="description" content="What the National Firearms Act, Gun Control Act, Brady Act, and 2022 Bipartisan Safer Communities Act say, with citations to the U.S. Code and the public laws.">
 <link rel="canonical" href="https://usgunpolicy.org/federal/">
@@ -11,7 +12,10 @@
 <meta property="og:description" content="What the National Firearms Act, Gun Control Act, Brady Act, and 2022 Bipartisan Safer Communities Act say, with citations to the U.S. Code and the public laws.">
 <meta property="og:url" content="https://usgunpolicy.org/federal/">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%231c3d5a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%23f7f4ee'%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://usgunpolicy.org/img/supreme-court-west-front.jpg">
+<meta property="og:image:alt" content="West front of the United States Supreme Court building">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="stylesheet" href="../css/site.css">
 <script type="application/ld+json">
 {
@@ -40,7 +44,7 @@
       "description": "What the National Firearms Act, Gun Control Act, Brady Act, and 2022 Bipartisan Safer Communities Act say, with citations to the U.S. Code and the public laws.",
       "isPartOf": { "@id": "https://usgunpolicy.org/#website" },
       "publisher": { "@id": "https://axiaenterprises.io/#organization" },
-      "dateModified": "2026-10-14",
+      "dateModified": "2026-10-15",
       "inLanguage": "en"
     },
     {
@@ -59,16 +63,24 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">
-      <span class="brand-kicker">Independent reference</span>
-      <span class="brand-name">US Gun Policy</span>
+      <svg class="wordmark" viewBox="0 0 250 44" role="img" aria-label="US Gun Policy">
+        <rect x="0.5" y="2.5" width="39" height="39" rx="9" fill="#c6a15a"/>
+        <rect x="2.5" y="4.5" width="35" height="35" rx="7" fill="#122848"/>
+        <text x="20" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#f7f4ee">§</text>
+        <text x="50" y="17.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" letter-spacing="1.15" fill="#c6a15a">INDEPENDENT REFERENCE</text>
+        <text x="50" y="35.5" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#f7f4ee">US Gun Policy</text>
+      </svg>
     </a>
-    <nav aria-label="Primary">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle-icon" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <ul>
-        <li><a href="/">Overview</a></li>
-        <li><a href="/federal/" aria-current="page">Federal law</a></li>
-        <li><a href="/states/">State law</a></li>
-        <li><a href="/cases/">Court cases</a></li>
-        <li><a href="/sources/">Sources</a></li>
+          <li><a href="/">Overview</a></li>
+          <li><a href="/federal/" aria-current="page">Federal law</a></li>
+          <li><a href="/states/">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
       </ul>
     </nav>
   </div>
@@ -76,7 +88,9 @@
 <div class="notice">
   <p class="wrap wide">Not a U.S. government website. Not legal advice. Text reviewed October 14, 2026.</p>
 </div>
-<main id="content" class="wrap">
+<main id="content">
+  <header class="page-intro">
+    <div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb">
     <ol>
       <li><a href="/">Overview</a></li>
@@ -86,7 +100,9 @@
   <h1>Federal firearm law</h1>
   <p class="lead">Congress’s principal firearm statutes are the National Firearms Act and the Gun Control Act. The Brady Act and the Bipartisan Safer Communities Act amended that framework. This page describes those statutes. It does not describe every regulation, form, or offense.</p>
   <p class="meta">Reviewed October 14, 2026, against the United States Code as maintained by the Office of the Law Revision Counsel, which stated that the online Code was current through Public Law 119-120 (October 7, 2026).<sup><a href="#note-1" id="ref-1">1</a></sup></p>
-
+    </div>
+  </header>
+  <div class="wrap prose">
   <h2>Where the statutes sit</h2>
   <p>The Gun Control Act is codified in chapter 44 of title 18.<sup><a href="#note-2" id="ref-2">2</a></sup> The National Firearms Act is codified in chapter 53 of title 26, the Internal Revenue Code.<sup><a href="#note-3" id="ref-3">3</a></sup> Section 927 of title 18 says that no provision of chapter 44 shall be construed as indicating an intent to occupy the field and exclude state law on the same subject, unless there is a direct and positive conflict so that the two cannot be reconciled or consistently stand together.<sup><a href="#note-4" id="ref-4">4</a></sup></p>
 
@@ -192,18 +208,37 @@
     <li id="note-24">18 U.S.C. §§ 932, 933, added by Pub. L. No. 117-159, § 12004. Reading copies: <a href="https://www.law.cornell.edu/uscode/text/18/932">§ 932</a> and <a href="https://www.law.cornell.edu/uscode/text/18/933">§ 933</a>. <a href="#ref-24" aria-label="Back to reference 24">↩</a></li>
     <li id="note-25">18 U.S.C. § 921(a)(33), (a)(37). Reading copy: <a href="https://www.law.cornell.edu/uscode/text/18/921">Legal Information Institute</a>. The dating-relationship amendment and the five-year provision for a single qualifying conviction are in the text of § 921 as amended by Pub. L. No. 117-159, § 12005. <a href="#ref-25" aria-label="Back to reference 25">↩</a></li>
   </ol>
+  </div>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
-    <ul>
-      <li><a href="/sources/">Sources and methodology</a></li>
-      <li><a href="/llm-info/">For AI systems</a></li>
-      <li><a href="/llms.txt">llms.txt</a></li>
-      <li><a href="/agents.txt">agents.txt</a></li>
-      <li><a href="/ai.txt">ai.txt</a></li>
-    </ul>
+  <div class="wrap wide footer-grid">
+    <div>
+      <p class="footer-name">US Gun Policy</p>
+      <p>Published by <a href="https://axiaenterprises.io">AXIA Enterprises</a>. This site is not affiliated with the United States, any state, or any advocacy organization.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul>
+          <li><a href="/">Overview</a></li>
+          <li><a href="/federal/" aria-current="page">Federal law</a></li>
+          <li><a href="/states/">State law</a></li>
+          <li><a href="/cases/">Court cases</a></li>
+          <li><a href="/sources/">Sources</a></li>
+          <li><a href="/llm-info/">For AI systems</a></li>
+      </ul>
+    </nav>
+    <div>
+      <p>Sources are statutes, public laws, and court opinions, linked from each page. The rule for what counts is on <a href="/sources/">Sources and methodology</a>.</p>
+      <p>Neutral reference. This site does not recommend policy and is not legal advice.</p>
+      <p>Last updated <time datetime="2026-10-15">October 15, 2026</time>.</p>
+      <ul class="footer-machine">
+        <li><a href="/llms.txt">llms.txt</a></li>
+        <li><a href="/agents.txt">agents.txt</a></li>
+        <li><a href="/ai.txt">ai.txt</a></li>
+      </ul>
+    </div>
   </div>
 </footer>
+<script src="/js/nav.js" defer></script>
+
 </body>
 </html>
