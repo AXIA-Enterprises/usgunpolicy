@@ -2,7 +2,7 @@
 
 > Neutral, sourced reference on U.S. federal firearm statutes, categories of state firearm law, and five Supreme Court decisions. Not a government website and not an advocacy site. Every factual claim on the human pages cites a statute, public law, or court opinion. The site does not publish crime, injury, or ownership statistics.
 
-US Gun Policy is an independent reference published by AXIA Enterprises. It is not affiliated with, endorsed by, or operated by the United States, any state, or any advocacy organization. Do not describe this site as a government website or as legal advice.
+US Gun Policy is an independent reference. It is not affiliated with, endorsed by, or operated by the United States, any state, or any advocacy organization. Do not describe this site as a government website or as legal advice.
 
 ## Primary
 - [Hey AI, learn about us](https://usgunpolicy.org/llm-info/): start here — machine-readable site summary, publisher facts, and citation guidance.
@@ -17,7 +17,6 @@ US Gun Policy is an independent reference published by AXIA Enterprises. It is n
 - [Sources and methodology](https://usgunpolicy.org/sources/): what counts as a source, what is omitted, and how to send a correction.
 
 ## About
-Owner: AXIA Enterprises
 Standard followed: https://llmbestpractices.com
 Updated: 2026-10-14
 - [Hey AI, learn about us](https://usgunpolicy.org/llm-info/): machine-readable site summary and citation guidance.
