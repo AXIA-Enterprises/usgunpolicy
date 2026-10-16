@@ -1,8 +1,7 @@
 # ai.txt — AI Agent Usage Policy for https://usgunpolicy.org
 
 Site: https://usgunpolicy.org
-Contact: https://github.com/AXIA-Enterprises/usgunpolicy
-Publisher: AXIA Enterprises (https://axiaenterprises.io)
+Publisher: US Gun Policy (https://usgunpolicy.org)
 
 # Machine-readable entry points
 # AI landing page: https://usgunpolicy.org/llm-info/

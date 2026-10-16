@@ -13,7 +13,6 @@ Summarization: allow
 Citation-Required: true
 Attribution: US Gun Policy (https://usgunpolicy.org)
 
-Owner: AXIA Enterprises
 Start-here: https://usgunpolicy.org/llm-info/
 Machine-index: https://usgunpolicy.org/llms.txt
 Sitemap: https://usgunpolicy.org/sitemap.xml
